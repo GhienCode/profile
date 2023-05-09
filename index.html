@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Ghiền Code</title>
+	<link rel="stylesheet" href="style.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@700&family=Lobster&family=Roboto&display=swap" rel="stylesheet">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<script src="https://kit.fontawesome.com/5468db3c8c.js" crossorigin="anonymous"></script>
+	<link rel="icon" href="favicon.gif" type="image/gif" />
+</head>
+<body>
+	<center>
+		<img class="avatar" src="images/2.png" width="140">
+		<h3>GhienCode.vn</h3>
+		<p>My name is Ghien Code. I am an inspiration for students who are interested in the field of programming.</p>
+		<button class="button" onclick="location.href = 'https://github.com/GhienCode/Code'">
+			<i class="fab fa-github"></i> Github
+		</button><br>
+		<button class="button" onclick="location.href = 'https://www.tiktok.com/@ghiencode.vn'">
+			<i class="fab fa-tiktok"></i>&nbsp; TikTok
+		</button><br>
+		<button class="button" onclick="location.href = 'mailto:ghiencodedao@gmail.com'">
+			<i class="fas fa-envelope"></i>&nbsp; Send email
+		</button><br>
+
+		<button class="button" onclick="sendZaloMessage()">
+			<i class="fab fa-zalo"></i>&nbsp; Zalo : 0559240051
+		</button><br>
+		<script>
+		function sendZaloMessage() {
+		  var phoneNumber = '0559240051'; // replace with your phone number
+		  var message = 'Hello from Uneti Code Dao!'; // replace with your message
+		
+		  var url = 'https://zalo.me/' + phoneNumber + '?text=' + encodeURIComponent(message);
+		  window.open(url);
+		}
+		</script>
+	</center>
+	
+
+	
+
+</body>
+</html>
